@@ -1,20 +1,9 @@
 server:
-  port: 8090
+  port: 8085
 
 spring:
   application.name: pet-client
   profiles.active: default
-
-#  cloud.config:
-#    discovery:
-#      enabled: false
-#      service-id: configserver
-
-    #uri: http://localhost:8090
-#    label: development
-#    username: root
-#    password: s3cr3t
-#    fail-fast: true
 
 eureka:
   client:
