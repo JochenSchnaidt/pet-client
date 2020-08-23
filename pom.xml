@@ -55,7 +55,6 @@
             <version>${openapi.generator.maven.plugin.version}</version>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>org.openapitools</groupId>
             <artifactId>jackson-databind-nullable</artifactId>
